@@ -1,0 +1,46 @@
+<h1>Wastabo Estuvo Aqui :'D</h1>
+
+<div class="row">
+    <div class="col-6">
+            <div class="mb-3">
+                <label class="form-control" for="">Numero1</label>
+                <input class="form-control" [(ngModel)]="num1" name="num1" placeholder="Numero1">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-control" for="">Numero2</label>
+                <input class="form-control" [(ngModel)]="num2" name="num2" placeholder="Numero2">
+            </div>
+
+            <div class="mb-3">
+                <button (click)="sumar()" class="btn btn-primary">Calcular</button>
+            </div>
+    </div>
+
+        <div class="col-6">
+            <h2>Resultado: {{resultado}}</h2>
+        </div>
+</div>
+
+<h1>Tabla de Multiplicar</h1>
+
+<div class="row">
+    <div class="col-6">
+            <div class="mb-3">
+                <label class="form-control" for="">Numero3</label>
+                <input class="form-control" [(ngModel)]="num3" name="num3" placeholder="Numero#">
+            </div>
+
+            
+            <div class="mb-3">
+                <button (click)="multiplicar()" class="btn btn-primary">Calcular Tabla de Multiplicar</button>
+            </div>
+    </div>
+
+        <div class="col-6">
+            <h2>Resultado:</h2>
+                <div class="col-6">
+                    <span *ngFor="let resultado of X">{{resultado}}<p>_____________</p></span>
+                </div>
+        </div>
+</div>

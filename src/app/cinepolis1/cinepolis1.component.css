@@ -1,0 +1,81 @@
+.Titulo{
+    /* Codigo para centrar*/
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    /* Codigo para centrar*/
+    display: flex;
+    justify-content: center;
+}
+
+.card-header{
+    /* Codigo para centrar*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    /* Codigo para centrar*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.text{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.div{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.input{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.h1{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.h2{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.h3{
+     /* Codigo para centrar*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.Bloqueador{
+    color: red;
+}

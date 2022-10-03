@@ -1,0 +1,87 @@
+<p>Esto no esta aqui</p>
+<div class="card" style="background-color: rgb(93, 135, 212)">
+    <div class="Titulo">
+    <h1>Cuevana<h3>"Todo de Calidad :'D"</h3></h1>
+    </div>
+
+    <div class="card-header">
+        <div class="card-body">
+            <div class="card">
+                <div class="card-header" style="background-color: rgb(93, 135, 212)">Entradas</div>
+                <div class="card-body" style="background-color: rgb(149, 186, 235)">
+                    <div class="row">
+                        <div class="row">Nombre:</div>
+                        <div class="row">
+                            <input type="text" class="form-control" placeholder="Nombre del Cliente" [(ngModel)]="NombreCliente" name="NombreCliente">
+                        </div>
+                        <div class="row">Cantidad de Compradores:</div>
+                        <div class="row">
+                            <input type="text" class="form-control" placeholder="Cantidad de Clientes" [(ngModel)]="Nclientes" name="Nclientes">
+                        </div>
+                        <div class="row">Tarjeta CineDarks:</div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="radio" value="si" [(ngModel)]="tarjeta" name="si">Si
+                            </div>
+                            <div class="col">
+                                <input type="radio" value="no" [(ngModel)]="tarjeta" name="no">No
+                            </div>
+                        </div>
+                        <div class="row">Cantidad de Boletos:</div>
+                            <div class="row">
+                                <input type="text" class="form-control" placeholder="Cantidad de Boletos" [(ngModel)]="Nboletos" name="Nboletos">
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="card-body">
+            <div class="card">
+                <div class="card-header" style="background-color: rgb(93, 135, 212)">Salidas</div>
+                <div class="card-body" style="background-color: rgb(149, 186, 235)">
+                    <div class="row">
+                        <div class="row">Total a pagar:</div>
+                        <div class="row">
+                            <input type="text" readonly="readonly" class="form-control" [(ngModel)]="totalApagar" name="totalApagar" placeholder="Total A Pagar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-body">
+            <div class="card">
+                <div class="card-header" style="background-color: rgb(93, 135, 212)">Ticket</div>
+                <div class="card-body" style="background-color: rgb(149, 186, 235)">
+                    <div class="row">
+                        <div class="card-header" style="background-color: rgb(93, 135, 212)">Titular:</div>
+                            <input type="text" readonly="readonly" class="form-control" [(ngModel)]="NombreCliente" name="NombreCliente" placeholder="">
+                        <p>&NonBreakingSpace;</p>
+
+                        <div class="card-header" style="background-color: rgb(93, 135, 212)">Cantidad de Boletos:</div>
+                        <input style="color: red;" type="text" readonly="readonly" class="form-control" [(ngModel)]="MensajeBloqueo" name="MensajeBloqueo" placeholder="">
+                        <input type="text" readonly="readonly" class="form-control" [(ngModel)]="Nboletos" name="Nboletos" placeholder="">
+                        <p>&NonBreakingSpace;</p>
+
+                        <div class="card-header" style="background-color: rgb(93, 135, 212)">Total a Pagar:</div>
+                        <input type="text" readonly="readonly" class="form-control" [(ngModel)]="totalApagar" name="totalApagar" placeholder="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="card">
+                <button (click)="cineCal()" class="btn btn-primary">Calcular</button>
+                <p></p>
+                <button (click)="BorrarTodo()" class="btn btn-primary">Reiniciar</button>
+            </div>
+        </div>
+
+
+    </div>
+</div>
